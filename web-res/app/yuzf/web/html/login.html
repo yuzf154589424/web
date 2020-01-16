@@ -4,9 +4,25 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>登陆页面</title>
     <script language="javascript" type="text/javascript" src="../js/common/jquery-2.1.4.min.js?v=cdn_version"></script>
-    <link type="text/css" rel="stylesheet" href="../css/login.css">
+    <link type="text/css" rel="stylesheet" href="../css/initPage.css">
 </head>
 <body>
+    <div class="loginContent">
+        <div style="text-align: center">
+            <span class="online" style="align-content: center">登陆</span>
+        </div>
+        <div style="text-align: center;width: 200px;margin: 0 auto;">
+            <input id="userName" type="text" placeholder="用户名" value="" />
+            <input id="userNumber" type="text" placeholder="手机号" style="display: none"/>
+            <input id="passwd" type="text" placeholder="密码" value="" />
+            <input id="passwd-repeat" type="text" placeholder="再输一遍密码" style="display: none" />
+        </div>
+        <div style="text-align: center">
+            <input id="sign" type="button" style="width: 66px" placeholder="注册" value="注册"/>
+            <input id="loginOn" type="button" style="width: 66px" placeholder="登陆" value="登陆" />
+        </div>
+    </div>
 
+    <script language="javascript" type="text/javascript" src="../js/initPage.js"></script>
 </body>
 </html>
