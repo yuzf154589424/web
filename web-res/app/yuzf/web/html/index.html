@@ -1,28 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>首页</title>
-    <script language="javascript" type="text/javascript" src="../js/common/jquery-2.1.4.min.js?v=cdn_version"></script>
-    <link type="text/css" rel="stylesheet" href="../css/index.css">
+    <meta charset="utf-8" />
+    <title>测试页面</title>
+    <link rel="stylesheet" href="../css/index.css" />
 </head>
-<body>
-    <div class="page">
-        <div class="head">
-            <div class="headContent">
-            <a class="headBanner" href="index.html"></a>
-            <div class="menu">
-                <a class="classroom" href="classroom.html">小葵花妈妈课堂</a>
-                <a class="aligei" href="aligei.html">虎躯一震</a>
-                <a class="contract" href="contract.html">联系我们</a>
-            </div>
-            <div class="login">
-                <a class="loginbutton" href="login.html">登陆</a>
-                <a class="signbutton" href="login.html">注册</a>
-            </div>
-        </div>
-        </div>
-        <div class="bodyContent"></div>
+<body style="margin: 0 auto;">
+<div class="header">
+    <ul class="topheader" style="margin: 0 auto;">
+        <li>home</li>
+        <li>type</li>
+        <li>country</li>
+        <li class="femalebutton">
+					<span>
+						<font>character type</font>
+						<style type="text/css">
+							::after
+						</style>
+					</span>
+            <ul style="display: none; background-color: black;list-style-type:none;padding: 0;text-align: center;width: 73px;">
+                <li>种类一</li>
+                <li>种类二</li>
+                <li>种类三</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<div class="secondheader">
+    <div id="logo">
+        <a href="index.html">
+            <img src="../image/logo.png" id="logopng" />
+        </a>
     </div>
+    <div class="searchbody" >
+        <div>测试1</div>
+        <div>测试2</div>
+        <div>测试3</div>
+        <div>测试4</div>
+        <div>
+            <a href="index.html">测试5</a>
+        </div>
+        <div class="search">
+            <!-- 					<span><p>搜索</p></span> -->
+            <input type="text" id="searchtable" placeholder="搜索引擎" />
+            <button id="searchbutton" />
+        </div>
+        <div style="display: flex;" id="login">
+            <span dir="ltr">登陆</span>
+            <span style="padding-left: 0.625rem;">注册</span>
+        </div>
+        <!-- <input type="button" id="searchbutton" value="搜索" /> -->
+    </div>
+</div>
+<div id="content">
+    <div id="leftPart">
+
+    </div>
+    <div id="middlePart">
+
+    </div>
+    <div id="rightPart">
+
+    </div>
+</div>
 </body>
+<script language="JavaScript" type="text/javascript" src="../js/common/jquery-2.1.4.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="../js/index.js"></script>
 </html>
